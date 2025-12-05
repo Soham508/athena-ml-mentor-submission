@@ -1,3 +1,14 @@
+# How to run?
+
+Step-1 : git clone https://github.com/Soham508/athena-ml-mentor-submission.git
+
+Step-2 : cd athena-ml-mentor-submission/my-app
+
+Step-3 : npm run dev
+
+Step-4 : open http://localhost:3000/ on browser
+
+
 # Numeral Systems Explorer
 
 A comprehensive educational platform for exploring, learning, and practicing various numeral systems used across different cultures and historical periods. This application bridges mathematics, linguistics, and cultural studies through interactive learning experiences.
@@ -82,25 +93,3 @@ Three progressive challenge categories:
 - **Icons**: React Icons
 - **UI Components**: Custom-built with accessibility in mind
 
-## Project Structure
-
-├── app/
-│   ├── layout.tsx         # Global structure
-│   ├── page.tsx           # Home page
-│   ├── converter/
-│   │   └── page.tsx       # Main client component for converter
-│   └── library/
-│       ├── page.tsx       # System List
-│       └── [system.id]/
-│           └── page.tsx   # System Detail
-├── components/
-│   ├──Breadcrumb.tsx    # Handles Breadcrumb component used acroos pages
-|
-├── lib/
-│   ├── converter.ts       # CORE LOGIC: arabicToSystem, systemToArabic
-|
-└── data/
-    ├── systems.ts                 # JSON/JS Object of all numeral systems
-    └── construction-challenges.ts # Data for construction challenges problem set
-    └── pattern-identification.ts  # Data for pattern identification problem set
-    └── olympiad-puzzles           # Data for olympiad puzzles problem set
